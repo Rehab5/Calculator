@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculater</title>
+
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator dark">
+            <div id="display">0</div>
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button class="btn-clear rounded-circle" data-action="clear">Clear</button></td>
+                        <td><button class="btn-operator rounded-circle" data-action="divide">&divide;</button></td>
+                        <td><button class="btn-operator rounded-circle" data-action="multiply">&times;</button></td>
+                        <td><button class="btn-back rounded-circle" data-action="backspace">Back</button> </td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number rounded-circle" id="7">7</button></td>
+                        <td><button class="btn-number rounded-circle" id="8">8</button></td>
+                        <td><button class="btn-number rounded-circle" id="9">9</button></td>
+                        <td><button class="btn-operator rounded-circle" data-action="subtract">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number rounded-circle" id="4">4</button></td>
+                        <td><button class="btn-number rounded-circle" id="5">5</button></td>
+                        <td><button class="btn-number rounded-circle" id="6">6</button></td>
+                        <td><button class="btn-operator rounded-circle" data-action="addition">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number rounded-circle" id="1">1</button></td>
+                        <td><button class="btn-number rounded-circle" id="2">2</button></td>
+                        <td><button class="btn-number rounded-circle" id="3">3</button></td>
+                        <td><button class="btn-equal rounded-circle" data-action="equal">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-operator rounded-circle" id="(">(</button></td>
+                        <td><button class="btn-number rounded-circle" id="0">0</button></td>
+                        <td><button class="btn-dot rounded-circle" data-action="decimal">.</button></td>
+                        <td><button class="btn-operator rounded-circle" id=")">)</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+</body>
+
+</html>
